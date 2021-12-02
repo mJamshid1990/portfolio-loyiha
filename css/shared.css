@@ -1,3 +1,4 @@
+/* Font families */
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto/Roboto-Black.eot');
@@ -148,6 +149,15 @@ body{
   margin: 0;
 }
 
+a {
+  transition: all 0.3s ease-in-out;
+}
+
+button{
+  font-family: inherit;
+  transition: all 0.3s ease-in-out;
+}
+
 .container{
   width: 1140px;
   margin: 0 auto;
@@ -187,7 +197,6 @@ body{
   padding: 1.26rem 2.5rem;
   cursor: pointer;
   border-radius: 5px;
-  transition: 0.5s;
 }
 
 .button:hover{
